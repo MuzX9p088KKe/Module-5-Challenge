@@ -8,19 +8,26 @@ The purpose of this project was to use the data of many rides gathered from a ri
 After the data had been re-organized, we were also tasked to use this dataframe create a multiple-line graph to help identify meaningful trends.
 
 
-## Results: Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+## Results: 
 
-Several obvious trends appear when looking at the data we were provided. 
+Several obvious trends appear when looking at the data we were provided. The dataframe used as a reference is the following:
+
+![cities_by_type_table](https://user-images.githubusercontent.com/76575162/120121130-6548e380-c167-11eb-8c56-619e56c18eb6.png)
+
 
 First of all, the total amount of rides is not at all evenly distributed between each type of city. Rural cities have a total of 125 rides, suburban cities have 625, and urban cities have 1,625. This means that the ride count of urban cities is larger than twice the other two types combined. This is quite a large discrepancy.
 
 In terms of the amount of drivers, we see a continuation of the trend observed above. Rural cities have a total of 78 drivers, suburban cities have 490, and urban cities have 2,405. The difference between the total amount of drivers of the urban cities is even more pronounced for this metric as it is a little under less than five time higher than the other two categories combined.
 
-Analyzing the fares is where this dataset delivers some really interesting insight. While, obviously, the total amount of fares mirror the general trends observed in the previous metrics, it does while staying much closer between city types. Rural cities have a total of 4,237.93 USD, suburban cities are at 19,356.33 USD, and urban cities at 39,854.38 USD. These amounts are indeed much closer than the other metrics.
+Analyzing the fares is where this dataset delivers some really interesting insight. While, obviously, the total amount of fares mirror the general trends observed in the previous metrics, it does while staying much closer between city types. Rural cities have a total of 4,237.93 USD, suburban cities are at 19,356.33 USD, and urban cities at 39,854.38 USD. These amounts are indeed much closer than the other metrics. This can be seen on the following chart:
 
+![PyBer_fare_summary](https://user-images.githubusercontent.com/76575162/120121186-a3460780-c167-11eb-9c40-3a779143f7f2.png)
+      
+          
 Upon closer inspection, this can be explained by the fact that the average fare per ride is highest in rural cities at 34.62 USD, followed by suburban cities at 30.07 USD, and finally urban cities at 24.53 USD. 
 
 Lastly, this had some consequences for the fare per driver also. Indeed, the average fare trends across city types described above trend opposite to the amount of drivers. This caused average fare per drivers to be highest in rural cities at 55.49 USD, followed by suburban cities at 39.50 USD, and finally urban cities at 16.57 USD. 
+
 
 
 ## Summary: Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
