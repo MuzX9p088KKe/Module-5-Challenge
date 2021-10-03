@@ -1,4 +1,4 @@
-# Module-5-Challenge: Rideshare Data Analysis
+# Rideshare Data Analysis
 
 
 ## Overview of the analysis:
